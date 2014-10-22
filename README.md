@@ -16,4 +16,4 @@ Method so far:
 xsltproc clean_color_html.xslt LegoColors.xlsx.xml > output.html
 ```
 
-...that will generate output.html for you, although I've also included that in this repository for the sake of convenience.
+...that will generate output.html for you, although I've also included that in this repository for the sake of convenience. If you're really lazy, here's a version of that hosted by GitHub: http://danny316p.github.io/LEGO-Colors/output.html
