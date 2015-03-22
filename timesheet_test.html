@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Color timeline</title>
+</head>
+<body>
+<script src="timesheet.js"></script>
+Here's a go at creating <a href="https://www.flickr.com/photos/126975831@N07/15801189140/">Ryan's chart</a> programatically, because I think doing data entry work in Illustrator is a waste of time.
+
+This is based off of <a href="https://github.com/sbstjn/timesheet.js">https://github.com/sbstjn/timesheet.js</a>, which appears to do most of the work for me. The rest is formatting. I fully expect that thinking of the term "timesheet" instead of "chart" or "timeline" will be the hardest part of this.
+
+<div id="timesheet"></div>
+<link href="timesheet.css" rel="stylesheet" type="text/css" />
+
+
+<script src="edited_output.js"></script>
+Demo text:
+new Timesheet('timesheet', 1955, 2013, [
+  ['2002', '09/2002', 'A freaking awesome time', 'lorem'],
+  ['06/2002', '09/2003', 'Some great memories', 'ipsum'],
+  ['2003', 'Had very bad luck'],
+  ['10/2003', '2006', 'At least had fun', 'dolor'],
+  ['02/2005', '05/2006', 'Enjoyed those times as well', 'ipsum'],
+  ['07/2005', '09/2005', 'Bad luck again', 'default'],
+  ['10/2005', '2008', 'For a long time nothing happened', 'dolor'],
+  ['01/2008', '05/2009', 'LOST Season #4', 'lorem'],
+  ['01/2009', '05/2009', 'LOST Season #4', 'lorem'],
+  ['02/2010', '05/2010', 'LOST Season #5', 'lorem'],
+  ['09/2008', '06/2010', 'FRINGE #1 & #2', 'ipsum']
+]);
+
+
+
+</body>
+</html>
+
