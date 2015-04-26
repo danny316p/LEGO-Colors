@@ -1,0 +1,15 @@
+I've determined that this library isn't a good use of my time/efforts, but wanted to archive the attempt anyway.
+
+Among other implentation difficulties, I found that a required fix was only available in a fork, and it was nontrivial to track the two codebases and merge all the changes I needed into my own version of timesheet.js. That may change someday, but for now I have another library I'd like to try instead.
+
+Related links:
+https://github.com/sbstjn/timesheet.js
+https://github.com/sbstjn/timesheet.js/pull/18
+https://github.com/sbstjn/timesheet.js/commits/master
+https://github.com/jpgcc/timesheet.js/commit/7834cf3df7a7465e7d6abd017522ffe93031c99f
+file:///home/dan/github/LEGO-Colors/timesheet_test.html
+http://sbstjn.github.io/timesheet.js/
+https://github.com/jpgcc/timesheet.js/commit/c3da8631287cb1ea1cc0b38f7897b77c541ea595
+https://github.com/sbstjn/timesheet.js
+http://stackoverflow.com/questions/4581740/pull-in-changes-from-a-github-fork
+
